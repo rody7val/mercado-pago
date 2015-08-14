@@ -9,18 +9,18 @@
             "email": "rod7val@gmail.com"
         }
     ],
-    "require": {
-        "ext-curl": "*"
-    },
     "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/rody7val/mercado-pago.git"
         }
     ],
+    "require": {
+        "livepixel/mercado-pago": "dev-master"
+    },
     "autoload": {
         "psr-4": {
-            "LivePixel\\MercadoPago\\" : "src/"
+            "Rody7Val\\MercadoPago\\" : "src/"
         }
     }
 }

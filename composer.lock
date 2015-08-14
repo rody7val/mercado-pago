@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e84c36693c055e3b63a4e24252bb3dbc",
+    "packages": [
+        {
+            "name": "livepixel/mercado-pago",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/livepixel/mercado-pago.git",
+                "reference": "b2d91810e8e5adbe0e3c6cffbf0d0bda9057927d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/livepixel/mercado-pago/zipball/b2d91810e8e5adbe0e3c6cffbf0d0bda9057927d",
+                "reference": "b2d91810e8e5adbe0e3c6cffbf0d0bda9057927d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LivePixel\\MercadoPago\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rodrigo Maia",
+                    "email": "rodurma@gmail.com"
+                }
+            ],
+            "description": "Mercado Pago API SDK for Laravel",
+            "keywords": [
+                "mercadopago",
+                "sdk"
+            ],
+            "time": "2015-06-24 01:34:52"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "livepixel/mercado-pago": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
