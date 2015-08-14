@@ -1,17 +1,23 @@
 {
-    "name": "livepixel/mercado-pago",
+    "name": "rody7val/mercado-pago",
     "description": "Mercado Pago API SDK for Laravel",
     "keywords": ["mercadopago", "sdk"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Rodrigo Maia",
-            "email": "rodurma@gmail.com"
+            "name": "Rodolfo Valguarnera",
+            "email": "rod7val@gmail.com"
         }
     ],
     "require": {
-        "ext-curl": "*"
+        "livepixel/mercado-pago": "1.0.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/rody7val/mercado-pago.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "LivePixel\\MercadoPago\\" : "src/"
