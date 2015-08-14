@@ -11,11 +11,11 @@ class MercadoPagoServiceProvider extends ServiceProvider
 
 	public function boot()
 	{
-		
-		$this->publishes([__DIR__.'/../resources/config/mercadopago.php' => config_path('mercadopago.php')]);
+		// laravel 4:
+		$this->package('livepixel/mercado-pago');
 
-		$this->mp_app_id     = config('mercadopago.app_id');
-		$this->mp_app_secret = config('mercadopago.app_secret');
+		$this->mp_app_id     = getenv('MP_APP_ID');
+		$this->mp_app_secret = getenv('MP_APP_SECRET');
 	}
 
 	public function register()
