@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "livepixel/mercado-pago": "1.0.0"
+        "ext-curl": "*"
     },
     "repositories": [
         {
